@@ -23,7 +23,7 @@ modules:
       - type: archive
         url: http://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz
         sha256: c2b671e67e0c288a69fc33dc1b6f1b534d07882c2aceed37004bf48c601afa72
-  - name: llibqrencode4
+  - name: libqrencode4
     buildsystem: autotools
     sources:
       - type: git
@@ -36,6 +36,12 @@ modules:
       - type: archive
         url: https://github.com/aria2/aria2/releases/download/release-1.36.0/aria2-1.36.0.tar.xz
         sha256: 58d1e7608c12404f0229a3d9a4953d0d00c18040504498b483305bcb3de907a5
+  - name: stylesheet
+    buildsystem: meson
+    sources:
+      - type: git
+        url: https://github.com/elementary/stylesheet.git
+        tag: 6.1.1
   - name: gabutdm
     buildsystem: meson
     config-opts:
