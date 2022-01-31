@@ -10,7 +10,6 @@ finish-args:
   - '--system-talk-name=org.freedesktop.NetworkManager'
   - '--share=ipc'
   - '--socket=fallback-x11'
-  - '--socket=wayland'
   - '--filesystem=xdg-download'
 cleanup:
   - '*.a'
@@ -44,5 +43,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/gabutakut/gabutdm.git
-        tag: '1.6.9'
-        commit: e3e9ef5f625b93614a7b03b6ffb8a9e97eb4db4d
+        tag: '1.7.1'
+        commit: b0d9850b379079a1900d6c2c3e217933ef5ca4d2
