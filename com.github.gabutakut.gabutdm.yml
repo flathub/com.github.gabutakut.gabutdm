@@ -43,5 +43,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/gabutakut/gabutdm.git
-        tag: '1.8.9'
-        commit: 19d0670b7387f4b1d30bc7577b67ede4d63c2ecf
+        tag: '1.9.0'
+        commit: f8fa680afaf1cf8575f26c910f88d08b1178b088
