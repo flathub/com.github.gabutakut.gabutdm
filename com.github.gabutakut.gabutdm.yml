@@ -1,6 +1,6 @@
 app-id: com.github.gabutakut.gabutdm
 runtime: org.gnome.Platform
-runtime-version: '42'
+runtime-version: '44'
 sdk: org.gnome.Sdk
 command: com.github.gabutakut.gabutdm
 finish-args:
@@ -38,9 +38,6 @@ modules:
         sha256: 58d1e7608c12404f0229a3d9a4953d0d00c18040504498b483305bcb3de907a5
   - name: gabutdm
     buildsystem: meson
-    config-opts:
-      - -Dis_native_build=false
-      - -Dfor_pantheon=false
     sources:
       - type: git
         url: https://github.com/gabutakut/gabutdm.git
