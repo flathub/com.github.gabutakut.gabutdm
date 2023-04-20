@@ -12,6 +12,7 @@ finish-args:
   - '--system-talk-name=org.freedesktop.NetworkManager'
   - '--share=ipc'
   - '--socket=fallback-x11'
+  - '--socket=wayland'
   - '--filesystem=xdg-download'
   - '--device=dri'
 cleanup:
