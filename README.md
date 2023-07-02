@@ -1,8 +1,8 @@
 <h1 align="center">🇮🇩 Gabut Download Manager 🇮🇩</h1>
 <h1 align="center">
-    <img src="com.github.gabutakut.gabutdm.svg" alt="Gabut Download Manager">
+    <img src="data/icons/128/com.github.gabutakut.gabutdm.svg" alt="Gabut Download Manager">
 </h1>
-<h4 align="center">🌟 Simple and Faster Download Manager 💫</h4>
+<h4 align="center">🌟 Simple and Fast Download Manager 💫</h4>
 <h1 align="center">🚀 Release on ✈️</h1>
 <p align="center">
     <a href="https://snapcraft.io/gabutdm"><img
@@ -21,20 +21,19 @@
     <a href="https://addons.mozilla.org/en-US/firefox/addon/gabut-extentions/"><img
             src="https://addons.mozilla.org/static-frontend/c6276b7c0dc392e3ce8668f12e68b83c.svg" alt="Get it from the Add-ons"></a>
 </p>
-
 <h1 align="center">🤖 GabutDM 🤖</h1>
+<p align="center"><a href="https://flatstat.mijorus.it/app/com.github.gabutakut.gabutdm"  align="center"><img width="150" src="https://img.shields.io/endpoint?url=https://flathub-stats-backend.vercel.app/badges/com.github.gabutakut.gabutdm/shields.io.json"></a></p>
 <h2 align="center">🤖 GTK4 🤖</h2>
 <p align="center">
-Gabut Download Manager application that can download all you need like Link URLs Metallink Magnetlink Torrents using Aria2c and,
-an application that has a local server service interface. also file transfers from smartphones.
-This application prioritizes convenience, full of features and an attractive appearance.
+Gabut Download Manageran application made to help download activities that support all.
+can be used to download torrents and so on.
 </p>
 
 <h1 align="center">🤩 Appearance of GabutDM 🙈</h1>
 <p align="center">
     <img src="Screenshot0.png" alt="Home">
 </p>
-<h1 align="center">🚅 Proggress status of GabutDM 🙈</h1>
+<h1 align="center">🚅 Progress status of GabutDM 🙈</h1>
 <p align="center">
     <img src="Screenshot1.png" alt="Home">
 </p>
@@ -49,4 +48,8 @@ This application prioritizes convenience, full of features and an attractive app
 <h1 align="center">🧚 About Gabutdm 🧞</h1>
 <p align="center">
 Made for peoples all needed download manager
+</p>
+<p align="center">
+thank you all for the support and donations.
+we will continue to strive to make gabutdm a useful application.
 </p>
