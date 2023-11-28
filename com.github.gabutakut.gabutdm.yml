@@ -36,10 +36,9 @@ modules:
     config-opts:
       - '--with-ca-bundle=/etc/ssl/certs/ca-certificates.crt'
     sources:
-      - type: git
-        url: https://github.com/aria2/aria2.git
-        tag: 'release-1.37.0'
-        commit: 02f2d0d8472b3c38c29b4dba8c75ebd5fdd2899a
+      - type: archive
+        url: https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0.tar.xz
+        sha256: 58d1e7608c12404f0229a3d9a4953d0d00c18040504498b483305bcb3de907a5
   - name: gabutdm
     buildsystem: meson
     sources:
