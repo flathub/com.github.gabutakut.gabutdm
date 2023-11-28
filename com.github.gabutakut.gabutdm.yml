@@ -38,7 +38,7 @@ modules:
     sources:
       - type: archive
         url: https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0.tar.xz
-        sha256: 58d1e7608c12404f0229a3d9a4953d0d00c18040504498b483305bcb3de907a5
+        sha256: 8e7021c6d5e8f8240c9cc19482e0c8589540836747744724d86bf8af5a21f0e8
   - name: gabutdm
     buildsystem: meson
     sources:
