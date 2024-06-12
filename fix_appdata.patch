@@ -1,4 +1,4 @@
-From 475fd9ceb038765f4aca5cef0b67154ccf640607 Mon Sep 17 00:00:00 2001
+From c9d9ae3efdd40ad69cf0929bb1aa222b79ae321b Mon Sep 17 00:00:00 2001
 From: Sabri Ünal <yakushabb@gmail.com>
 Date: Thu, 13 Jun 2024 02:23:39 +0300
 Subject: [PATCH] appdata: Update appdata
@@ -9,7 +9,7 @@ Subject: [PATCH] appdata: Update appdata
  1 file changed, 6 insertions(+), 32 deletions(-)
 
 diff --git a/data/com.github.gabutakut.gabutdm.appdata.xml.in b/data/com.github.gabutakut.gabutdm.appdata.xml.in
-index d1be86a..5ed21ca 100644
+index d1be86a..eed432e 100644
 --- a/data/com.github.gabutakut.gabutdm.appdata.xml.in
 +++ b/data/com.github.gabutakut.gabutdm.appdata.xml.in
 @@ -166,42 +166,16 @@
@@ -53,7 +53,7 @@ index d1be86a..5ed21ca 100644
 +  <url type="bugtracker">https://github.com/gabutakut/gabutdm/issues</url>
 +  <url type="vcs-browser">https://github.com/gabutakut</url>
 +  <url type="help">https://github.com/gabutakut/gabutdm/issues</url>
-+  <launchable type="desktop-id">com.github.gabutakut.gabutdm</launchable>
++  <launchable type="desktop-id">com.github.gabutakut.gabutdm.desktop</launchable>
    <custom>
      <value key="x-appcenter-color-primary">#2A7D00</value>
      <value key="x-appcenter-color-primary-text">#d1ff82</value>
