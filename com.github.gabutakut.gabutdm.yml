@@ -18,6 +18,11 @@ cleanup:
   - '*.a'
   - '*.la'
   - '/include'
+  - /share/doc
+  - /share/man
+  - /share/vala
+  - /share/gtk-doc
+  - /lib/pkgconfig
 modules:
   - name: libcanberra
     buildsystem: autotools
