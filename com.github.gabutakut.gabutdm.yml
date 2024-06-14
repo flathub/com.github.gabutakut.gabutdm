@@ -1,6 +1,6 @@
 app-id: com.github.gabutakut.gabutdm
 runtime: org.gnome.Platform
-runtime-version: '44'
+runtime-version: '46'
 sdk: org.gnome.Sdk
 command: com.github.gabutakut.gabutdm
 finish-args:
@@ -18,19 +18,19 @@ cleanup:
   - '*.a'
   - '*.la'
   - '/include'
+  - /share/doc
+  - /share/man
+  - /share/vala
+  - /share/gtk-doc
+  - /lib/pkgconfig
 modules:
-  - name: libcanberra
-    buildsystem: autotools
-    sources:
-      - type: archive
-        url: http://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz
-        sha256: c2b671e67e0c288a69fc33dc1b6f1b534d07882c2aceed37004bf48c601afa72
+  - shared-modules/libcanberra/libcanberra.json
   - name: libqrencode4
     buildsystem: autotools
     sources:
-      - type: git
-        url: https://github.com/fukuchi/libqrencode.git
-        tag: v4.0.0
+      - type: archive
+        url: https://github.com/fukuchi/libqrencode/archive/refs/tags/v4.1.1.tar.gz
+        sha256: 5385bc1b8c2f20f3b91d258bf8ccc8cf62023935df2d2676b5b67049f31a049c
   - name: aria2
     config-opts:
       - '--with-ca-bundle=/etc/ssl/certs/ca-certificates.crt'
@@ -45,3 +45,5 @@ modules:
         url: https://github.com/gabutakut/gabutdm.git
         tag: '2.1.6'
         commit: 2cb7d682565f27f2ceff9d3dcd2645602a6b0f8f
+      - type: patch
+        path: fix_appdata.patch
