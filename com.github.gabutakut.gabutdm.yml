@@ -43,7 +43,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/gabutakut/gabutdm.git
-        tag: '2.1.6'
-        commit: 2cb7d682565f27f2ceff9d3dcd2645602a6b0f8f
+        tag: '2.2.1'
+        commit: 024f1496611ceff291dd0f417b6906b1b06e01a0
       - type: patch
         path: fix_appdata.patch
