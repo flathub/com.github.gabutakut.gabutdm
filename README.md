@@ -1,6 +1,6 @@
 <h1 align="center">🇮🇩 Gabut Download Manager 🇮🇩</h1>
 <h1 align="center">
-    <img src="data/icons/128/com.github.gabutakut.gabutdm.svg" alt="Gabut Download Manager">
+    <img src="com.github.gabutakut.gabutdm.svg" alt="Gabut Download Manager">
 </h1>
 <h4 align="center">🌟 Simple and Fast Download Manager 💫</h4>
 <h1 align="center">🚀 Release on ✈️</h1>
@@ -11,7 +11,7 @@
             src="https://appcenter.elementary.io/badge.svg" alt="Get it from the Appcenter"></a>
     <a href="https://flathub.org/apps/details/com.github.gabutakut.gabutdm"><img
             src="https://flathub.org/assets/badges/flathub-badge-en.svg" width="160" alt="Download on Flathub"></a>
-    <a href="https://launchpad.net/~torik-habib/+archive/ubuntu/gabutdm"><img
+    <a href="https://launchpad.net/~torik-habib/+archive/ubuntu/gabutdownloadmanager"><img
             src="https://launchpad.net/@@/launchpad-logo-and-name.png" alt="Repository"></a>
 </p>
 
@@ -53,3 +53,9 @@ Made for peoples all needed download manager
 thank you all for the support and donations.
 we will continue to strive to make gabutdm a useful application.
 </p>
+
+**PayPal**  
+You can transfer to my paypal account `torikhabib` or just click [PayPal Me](https://www.paypal.com/paypalme/TorikulHabib?locale.x=id_ID)
+
+**Bitcoin**  
+Bitcoin Address `19mZDWzZgzkHCi9YX9H3fYCUuCHq3W6wfT`
