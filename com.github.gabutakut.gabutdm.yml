@@ -38,12 +38,13 @@ modules:
       - type: archive
         url: https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0.tar.xz
         sha256: 60a420ad7085eb616cb6e2bdf0a7206d68ff3d37fb5a956dc44242eb2f79b66b
+  - shared-modules/ffmpeg/ffmpeg-full.json
   - name: gabutdm
     buildsystem: meson
     sources:
       - type: git
         url: https://github.com/gabutakut/gabutdm.git
-        tag: '2.7.0'
-        commit: 767a31aa31401afac4659cf7a72478a8d7870a7e 
+        tag: '2.8.0'
+        commit: c79373bd0a229f49b6c6a1646f71c7fe81b7551a 
       - type: patch
         path: fix_appdata.patch
