@@ -18,7 +18,6 @@ finish-args:
   - '--socket=fallback-x11'
   - '--socket=wayland'
   - '--filesystem=xdg-download'
-  - '--filesystem=xdg-config/autostart'
   - '--device=dri'
 cleanup:
   - '*.a'
