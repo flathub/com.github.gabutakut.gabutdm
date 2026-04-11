@@ -1,12 +1,8 @@
 app-id: com.github.gabutakut.gabutdm
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 command: com.github.gabutakut.gabutdm
-
-add-extensions:
-  org.gnome.Platform.ffmpeg-full:
-    version: '48'
 
 finish-args:
   - '--share=network'
@@ -50,7 +46,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/gabutakut/gabutdm.git
-        tag: '2.8.7'
-        commit: 688885064bd6d9de5ed6696d968b07e3a96d8673 
+        tag: '2.8.8'
+        commit: be50602f7d7cceebf50f1a6f29b8bfaecd1f775b 
       - type: patch
         path: fix_appdata.patch
