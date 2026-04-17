@@ -25,7 +25,6 @@ cleanup:
   - /share/gtk-doc
   - /lib/pkgconfig
 modules:
-  - shared-modules/libcanberra/libcanberra.json
   - name: libqrencode4
     buildsystem: autotools
     sources:
@@ -46,7 +45,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/gabutakut/gabutdm.git
-        tag: '2.8.8'
-        commit: e089b2fb8b7b8e20779891a489565c59a8e84be1 
+        tag: '2.8.9'
+        commit: bd56c126bc04963f5fe4ed684331dfbba2a4b16c 
       - type: patch
         path: fix_appdata.patch
