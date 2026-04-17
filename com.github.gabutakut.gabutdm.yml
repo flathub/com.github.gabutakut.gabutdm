@@ -25,6 +25,12 @@ cleanup:
   - /share/gtk-doc
   - /lib/pkgconfig
 modules:
+  - name: gsound
+    buildsystem: meson
+    sources:
+      - type: git
+        url: https://gitlab.gnome.org/GNOME/gsound.git
+        tag: 1.0.3 
   - name: libqrencode4
     buildsystem: autotools
     sources:
